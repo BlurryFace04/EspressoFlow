@@ -2,7 +2,7 @@
 EspressoFlow is a decentralized application (dApp) built on the Ethereum blockchain that allows customers to verify the authenticity of their coffee. By leveraging blockchain technology, Espresso Flow ensures transparency and trust in the coffee supply chain.
 
 ## Application Flow Diagram
-![4,000](https://user-images.githubusercontent.com/64888928/230790224-4249bb38-f92a-4478-9d98-0baccd4a9a0e.jpg)
+![4,000](https://user-images.githubusercontent.com/64888928/231164712-7fc6e4ce-9d0e-44a4-9166-fb1d9020fc6a.png)
 
 ## Project Overview
 This project focuses on the implementation and deployment of the Espresso Flow smart contract, which includes:
@@ -43,17 +43,16 @@ In this project, we will use Ganache to set up a local blockchain environment. G
 
 ## Deployment and Testing
 
-We will use the Truffle framework to compile, deploy, and test the Espresso Flow smart contract. Truffle provides a suite of tools to streamline the development process and make it easier to manage complex Ethereum projects.
+We will use the Truffle framework to compile, deploy, and test the EspressoFlow smart contract. Truffle provides a suite of tools to streamline the development process and make it easier to manage complex Ethereum projects.
 
 ## Web Interface
 
-A simple web interface will be created to interact with the Espresso Flow smart contract. The web interface will allow users to register cafes, farmers, shippers, and coffee batches, as well as update the status of coffee batches in the supply chain. Users will be able to connect their MetaMask accounts to the dApp to manage their Ethereum addresses and sign transactions.
+A simple web interface will be created to interact with the EspressoFlow smart contract. The web interface will allow supply chain managers to register cafes, farmers, shippers, and coffee batches, as well as update the status of coffee batches in the supply chain.
+The web interface will also allow the customers to verify the authenticity of their coffee.
 
 ## Future Enhancements
 
-Possible future enhancements for the Espresso Flow project include:
+Possible future enhancements EspressoFlow
 1. Integration with real-world data sources, such as IoT devices or external APIs, to automate the recording of supply chain events.
 2. Adding a marketplace feature to allow customers to purchase coffee directly from the dApp.
-3. Implementing a token-based reward system for customers, farmers, shippers, and cafes to incentivize participation in the platform.
-4. Improving the web interface design and user experience.
-5. Expanding the platform to support other types of supply chains, such as tea or chocolate.
+3. Expanding the platform to support other types of supply chains, such as tea or chocolate.
