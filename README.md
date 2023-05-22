@@ -47,8 +47,7 @@ We will use the Truffle framework to compile, deploy, and test the EspressoFlow 
 
 ## Web Interface
 
-A simple web interface will be created to interact with the EspressoFlow smart contract. The web interface will allow supply chain managers to register cafes, farmers, shippers, and coffee batches, as well as update the status of coffee batches in the supply chain.
-The web interface will also allow the customers to verify the authenticity of their coffee.
+A simple web interface is also developed using Flask, which is a web application framework for python; and Web3.js which is a collection of libraries for interacting with Ethereum nodes in javascript. This web interface can interact with the EspressoFlow smart contract which allows the allow supply chain managers to register cafes, farmers, shippers, and coffee batches, as well as update the status of coffee batches in the supply chain. This web interface will also allow the customers to verify the authenticity of their coffee.
 
 ## Future Enhancements
 
