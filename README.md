@@ -20,6 +20,7 @@ The following technologies are used in this project:
 * Ganache: A personal blockchain for Ethereum development
 * MetaMask: A browser extension for managing Ethereum accounts
 * Web3.js: A collection of libraries for interacting with Ethereum nodes using HTTP or IPC
+* Flask: A web application framework for python
 
 ## Smart Contract
 
