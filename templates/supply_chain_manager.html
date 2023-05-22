@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain Manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+    <h1>Supply Chain Manager</h1>
+
+    <h3>Register Farmer</h3>
+    <input type="text" id="farmerName" placeholder="Farmer Name">
+    <input type="text" id="farmerAddress" placeholder="Farmer Address">
+    <button onclick="registerFarmer()">Register Farmer</button>
+
+    <h3>Register Shipper</h3>
+    <input type="text" id="shipperName" placeholder="Shipper Name">
+    <input type="text" id="shipperAddress" placeholder="Shipper Address">
+    <button onclick="registerShipper()">Register Shipper</button>
+
+    <h3>Register Cafe</h3>
+    <input type="text" id="cafeName" placeholder="Cafe Name">
+    <input type="text" id="cafeOwner" placeholder="Cafe Owner Address">
+    <button onclick="registerCafe()">Register Cafe</button>
+
+    <h3>Register Coffee</h3>
+    <input type="text" id="coffeeType" placeholder="Coffee Type">
+    <input type="text" id="coffeeLocation" placeholder="Coffee Location">
+    <input type="number" id="coffeeFarmerId" placeholder="Farmer ID">
+    <input type="number" id="coffeeShipperId" placeholder="Shipper ID">
+    <input type="number" id="coffeeCafeId" placeholder="Cafe ID">
+    <button onclick="registerCoffee()">Register Coffee</button>
+    <br><br>
+
+    <a href="{{ url_for('index') }}">Back to Main Page</a>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Supply Chain</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Coffee Supply Chain</h1>
+        <div class="grid-container mt-5">
+            <div class="grid-item">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Supply Chain Manager</h5>
+                        <button class="btn" onclick="location.href='{{ url_for("supply_chain_manager") }}'">
+                          <img src="/static/scm.png" alt="SCM" width="32" height="32" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cafe</h5>
+                        <a href="{{ url_for('cafe') }}" class="btn">Go</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Farmer</h5>
+                        <a href="{{ url_for('farmer') }}" class="btn">Go</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Shipper</h5>
+                        <a href="{{ url_for('shipper') }}" class="btn">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

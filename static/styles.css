@@ -1,0 +1,93 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url('/static/background.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #8B4513;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #6A2C1D;
+  cursor: pointer;
+}
+
+/* Main Page */
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 5rem);
+  flex-wrap: wrap;
+}
+
+.main-page .card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.main-page .card h3 {
+  background-color: #6A2C1D;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  margin: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.main-page .card .card-body {
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #8B4513;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+

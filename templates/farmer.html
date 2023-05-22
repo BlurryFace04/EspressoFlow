@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+    <h1>Farmer</h1>
+    <h3>Harvest Coffee</h3>
+    <input type="number" id="farmerCoffeeId" placeholder="Coffee ID">
+    <button onclick="harvestCoffee()">Harvest Coffee</button>
+
+    <h3>Process Coffee</h3>
+    <input type="number" id="processCoffeeId" placeholder="Coffee ID">
+    <button onclick="processCoffee()">Process Coffee</button>
+
+    <h3>Roast Coffee</h3>
+    <input type="number" id="roastCoffeeId" placeholder="Coffee ID">
+    <button onclick="roastCoffee()">Roast Coffee</button>
+    <br><br>
+
+    <a href="{{ url_for('index') }}">Back to Main Page</a>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipper</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</head>
+<body>
+    <h1>Shipper</h1>
+    <h3>Ship Coffee</h3>
+    <input type="number" id="shipCoffeeId" placeholder="Coffee ID">
+    <button onclick="shipCoffee()">Ship Coffee</button>
+    <br><br>
+
+    <a href="{{ url_for('index') }}">Back to Main Page</a>
+</body>
+</html>
